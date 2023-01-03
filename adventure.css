@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+}
+
+body, html{
+font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    margin: 20px;
+    font-size: 15px;
+    height: 40px;
+}
+
+nav a{
+    margin: 0px 20px;
+    text-decoration: none;
+    color: white;
+}
+nav h2{
+    color: white;
+}
+
+#button *{
+    margin: 0px 10px;
+}
+nav button{
+    width: 80px;
+    height: 30px;
+    border-radius: 15px;
+    border-width: 1px;
+    background-color: transparent;
+    border-color: orangered;
+    color: orangered;
+    
+}
+nav i{
+    color: white;
+}
+
+nav i:hover{
+    color: orangered;
+    text-decoration: underline orangered;
+    
+}
+
+nav button:hover{
+    background-color: orangered;
+    color: black;
+}
+
+nav a:hover{
+    text-decoration-line: underline;
+}
+
+.section1 {
+    min-height: 100vh;
+    background-image:url(adventure.jpg) ;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+    
+        
+}
+.section1 button{
+    width: 100px;
+   
+}
+
+#adv *{
+    margin: 20px 0px;
+}
+#adv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 150px 0px 50px 0px;
+}
+#adv h1{
+    font-size: 80px;
+    
+}
+
+#adv button{
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+    border: none;
+    background-color: orangered;
+    color: white;
+}
+
+#adv button:hover{
+    background-color: white;
+    border-color: orangered;
+    color: orangered;
+}
+
+#adv p{
+    width: 600px;
+    
+}
+#block{
+    margin: 20px 100px;
+    align-self: start;
+    background-color: rgba(0, 0, 0, 0.26);
+    padding: 20px 10px;
+    border-radius: 0px 15px 0px 0px;
+}
+
+#block ul *{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+    padding-right: 20px;
+
+}
+#block i{
+    margin-left: 150px;
+}
+
+
+.input{
+    position: relative;
+    top: 80px;
+    margin: 50px 50px 10px 50px;
+    border: none;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    padding: 30px 40px;
+    box-shadow: 0px 0px 20px lightgrey;
+}
+.input h2{
+    margin-bottom: 20px;
+    text-align: start;
+}
+.input input{
+    height: 20px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(197, 197, 197);
+    
+}
+.input button{
+    height: 30px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    background-color: orangered;
+    box-shadow: 5px 5px 10px orangered;
+}
+
+#text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 200px;
+}
+
+#jump{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url(jump.jpg);
+    background-size: cover;
+}
+#kayak{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url(kayak.webp);
+    background-size: cover;
+}
+#parachute{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url(parachute.jpg);
+    background-size: cover;
+}
+#snow{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url(snow.jpg);
+    background-size: cover;
+}
+
+.img {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 20px;
+}
+
+#text h1{
+    margin: 20px;
+}
+
+#text p{
+    text-align: center;
+    width: 600px;
+    
+}
